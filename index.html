@@ -9,63 +9,74 @@ layout: default
   </header>
   </article>
 
-	<div class="posts">
-	{% for post in paginator.posts %}
-		{% include post_tags_category.html %}
-		<div class="post-teaser">
-		  <header>
-		    <h1>
-		      <a id="post-link-trans" class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-		        {{ post.title }}
-		      </a>
-		    </h1>
-		    <p id="subtitletrans" class="subtitlecontainer">
-		      <a class="subtitle">{{ post.date | date: "%m.%-d.%Y" }}</a>
-		      {% if post.author %} | <a class="subtitle" href="{{ site.baseurl }}/about/">{{ post.author }}</a>{% endif %}
-		      {% if post.category and post.tags %} | <a class="subtitle">{{ category_content }}</a> <a class="subtitle">{{ tags_content }}</a>{% endif %}
-		    </p>
-		  </header>
-		  <div class="excerpt">
-		  {% assign num = post.content | number_of_words %}
-		  {% if  num  < site.theme.visiblewords %}
-		    {{ post.content }}
-		  {% else %}
-		    {{ post.content | truncatewords: site.theme.visiblewords }}
-		    <p>
-		    <a class="text" href="{{ post.url | prepend: site.baseurl }}">
-		      {{ site.theme.str_continue_reading }}
-		    </a>
-		    </p>
-		  {% endif %}
-		  </div>
-		</div>
-		{% endfor %}
-	</div>
+  <!-- Header logo -->
+  <div style='position  : relative;
+              width     : 100%;
+              height    : 100%;
+              text-align: center;'>
+    <img src='header_logo.png' alt='Team If Logo' style='width  : 256px;
+                                                         height : 256px;
+                                                         display: inline-block;
+                                                         margin-top: -50px;'>
+  </div>
 
-	<div class="wp-pagenavi">
-	    <span class='pages'>Page {{ paginator.page }} of {{ paginator.total_pages }} </span>
+    <div class="posts">
+    {% for post in paginator.posts %}
+        {% include post_tags_category.html %}
+        <div class="post-teaser">
+          <header>
+            <h1>
+              <a id="post-link-trans" class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+                {{ post.title }}
+              </a>
+            </h1>
+            <p id="subtitletrans" class="subtitlecontainer">
+              <a class="subtitle">{{ post.date | date: "%m.%-d.%Y" }}</a>
+              {% if post.author %} | <a class="subtitle" href="{{ site.baseurl }}/About/">{{ post.author }}</a>{% endif %}
+              {% if post.category and post.tags %} | <a class="subtitle">{{ category_content }}</a> <a class="subtitle">{{ tags_content }}</a>{% endif %}
+            </p>
+          </header>
+          <div class="excerpt">
+          {% assign num = post.content | number_of_words %}
+          {% if  num  < site.theme.visiblewords %}
+            {{ post.content }}
+          {% else %}
+            {{ post.content | truncatewords: site.theme.visiblewords }}
+            <p>
+            <a class="text" href="{{ post.url | prepend: site.baseurl }}">
+              {{ site.theme.str_continue_reading }}
+            </a>
+            </p>
+          {% endif %}
+          </div>
+        </div>
+        {% endfor %}
+    </div>
 
-	    {% if paginator.previous_page %}
-	    	<a class="previouspostslink" rel="prev" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" > « </a>
-	    {% endif %}
+    <div class="wp-pagenavi">
+        <span class='pages'>Page {{ paginator.page }} of {{ paginator.total_pages }} </span>
 
-	      {% if paginator.page == 1 %}
-	        <span class="current">1</span>
-	      {% else %}
-	        <a class="page larger" href="/">1</a>
-	      {% endif %}
+        {% if paginator.previous_page %}
+            <a class="previouspostslink" rel="prev" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" > « </a>
+        {% endif %}
 
-	    {% for count in (2..paginator.total_pages) %}
-	        {% if count == paginator.page %}
-	          <span class="current">{{ count }}</span>
-	        {% else %}
-	          <a class="page larger" href="{{ site.baseurl }}/blog/page{{ count }}">{{ count }}</a>
-	        {% endif %}
-	    {% endfor %}
+          {% if paginator.page == 1 %}
+            <span class="current">1</span>
+          {% else %}
+            <a class="page larger" href="/">1</a>
+          {% endif %}
 
-	    {% if paginator.next_page %}
-	    	<a class="nextpostslink" rel="next" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" > » </a>
-	    {% endif %}
+        {% for count in (2..paginator.total_pages) %}
+            {% if count == paginator.page %}
+              <span class="current">{{ count }}</span>
+            {% else %}
+              <a class="page larger" href="{{ site.baseurl }}/blog/page{{ count }}">{{ count }}</a>
+            {% endif %}
+        {% endfor %}
 
-	</div>
+        {% if paginator.next_page %}
+            <a class="nextpostslink" rel="next" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" > » </a>
+        {% endif %}
+
+    </div>
 </div>
