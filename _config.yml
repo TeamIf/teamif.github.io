@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
 baseurl: "/team-if" # /fengzhichu-theme" # Set it to "" if use for personal site. The subpath of your site, e.g. /blog/
-url: "https://teamif.github.io/team-if" #"https://fengzhichu.com/fengzhichu-theme"   the base hostname & protocol for your site
+url: "https://teamif.github.io/team-if/" #"https://fengzhichu.com/fengzhichu-theme"   the base hostname & protocol for your site
 imageurl: "https://source.unsplash.com/user/teamif/2500x500" # https://source.unsplash.com/category/nature/2600x500" #"https://unsplash.it/2600/500?random"
 
 # THEME-SPECIFIC CONFIGURATION
@@ -15,7 +15,7 @@ theme:
   visiblewords: 300
   # Header and footer text
   header_text: >
-     Team If is a collective of multiple fan translation groups. Current projects consist of Fire Emblem Fates and Great Ace Attorney.
+     Team If is a collective of multiple fan translation groups. We are currently working on Fire Emblem Fates and Great Ace Attorney.
 
   header_text_feature_image: img/sample_feature_img.png
   place_holder_image: img/sample_feature_img.png
