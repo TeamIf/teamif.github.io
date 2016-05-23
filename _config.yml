@@ -1,47 +1,47 @@
 # SITE CONFIGURATION
 baseurl: "/fengzhichu-theme" # Set it to "" if use for personal site. The subpath of your site, e.g. /blog/
 url: "https://fengzhichu.com/fengzhichu-theme" # the base hostname & protocol for your site
-imageurl: "https://source.unsplash.com/category/nature/2600x500" #"https://unsplash.it/2600/500?random"
+imageurl: "https://source.unsplash.com/user/ahris/2500x500" # https://source.unsplash.com/category/nature/2600x500" #"https://unsplash.it/2600/500?random"
 
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
-  title: YOUR TITLE
-  #avatar: avatar.png
-  hometitle: Home #display on navigation menu.
-  yoursitetitle: YOUR LOGO
+  title: Team If
+  avatar: avatar.png
+  hometitle: Blog #display on navigation menu.
+  yoursitetitle: "<img src='https://i.imgur.com/ncwoXQx.png' style='height:18px;' alt='Team If'>" # Team If
   gravatar: # Email MD5 hash
-  description: "used by search engines" # used by search engines
+  description: "Fan Translation and Localization Team" # used by search engines
   visiblewords: 300
   # Header and footer text
   header_text: >
-     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+     Team If is a collective of multiple fan translation groups. Current projects consist of Fire Emblem Fates and Great Ace Attorney.
 
   header_text_feature_image: img/sample_feature_img.png
   place_holder_image: img/sample_feature_img.png
   footer_text: >
-   <a href="https://yoursite.com">YOUR TITLE</a> 
+   <a href="https://teamif.github.com">Team If</a>
 
   # Icons
   rss: false
-  email_address: "sam@example.com" # Full email address, e.g. "sam@example.com"
+  email_address: "askteamif@gmail.com" # Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:
   dribbble:
   facebook:
   flickr:
-  github: "fengzhichu"
-  weibo: 
+  github: "teamif"
+  weibo:
   google_plus:
   instagram:
   linkedin:  # Full URL
-  pinterest: 
+  pinterest:
   reddit:
   soundcloud:
   stack_exchange:  # Full URL
   steam:
   tumblr:
-  twitter: "fengzhichu"
+  twitter:
   wordpress:
   youtube:
 
@@ -54,8 +54,8 @@ theme:
   str_follow_on: "Follow on"
   str_rss_follow: "Follow RSS feed"
   str_email: "Email"
-  #str_next: "Next"
-  #str_prev: "Prev"
+  str_next: "Next"
+  str_prev: "Prev"
   str_continue_reading: "Continue Reading..."
 
   # Colours, typography and padding
@@ -66,18 +66,18 @@ theme:
   post_navigation: false
 
 # PAGINATION
-enforce_ssl: "fengzhichu.com"
+enforce_ssl: "teamif.github.com"
 paginate: 5
 paginate_path: "blog/page:num"
-permalink: blog/:title/ 
+permalink: blog/:title/
 
 # Posted in ... with ...
-sechby: 
+sechby:
   category:   #in
   tag:   #with
 
 # BUILD SETTINGS
-markdown: redcarpet
+markdown: kramdown
 highlighter: pygments
 sass:
   sass_dir: _sass

@@ -4,7 +4,7 @@ title: Archive
 permalink: /Archives/
 ---
 <section id="archive">
-  {%for post in site.posts %} 
+  {%for post in site.posts %}
     {% unless post.next %}
       <h3>{{ post.date | date: '%Y' }}</h3>
       <ul class="this">
@@ -17,7 +17,7 @@ permalink: /Archives/
         <ul class="past">
       {% endif %}
     {% endunless %}
-      <li><time>{{ post.date | date:"%m月%d日 " }}</time><a href="{{ post.url }}">{{ post.title }}</a></li>
+      <li><time>{{ post.date | date:"%m.%d " }}</time><a href="{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
   </ul>
 </section>
