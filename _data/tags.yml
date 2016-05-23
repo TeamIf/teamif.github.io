@@ -1,29 +1,32 @@
-- slug: django
-  name: Django
+- slug: miscellaneous
+  name: Miscellaneous
 
-- slug: django-template-tags
-  name: Django Template Tags
+# - slug: django
+#   name: Django
 
-- slug: font-awesome
-  name: Font Awesome
+# - slug: django-template-tags
+#   name: Django Template Tags
 
-- slug: icons
-  name: Icons
+# - slug: font-awesome
+#   name: Font Awesome
 
-- slug: image-processing
-  name: Image Processing
+# - slug: icons
+#   name: Icons
 
-- slug: python
-  name: Python
+# - slug: image-processing
+#   name: Image Processing
 
-- slug: github
-  name: GitHub
+# - slug: python
+#   name: Python
 
-- slug: github-pages
-  name: GitHub Pages
+# - slug: github
+#   name: GitHub
 
-- slug: jekyll
-  name: Jekyll
-  
-- slug: open-source
-  name: Open Source
+# - slug: github-pages
+#   name: GitHub Pages
+
+# - slug: jekyll
+#   name: Jekyll
+
+# - slug: open-source
+#   name: Open Source
