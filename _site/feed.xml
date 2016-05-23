@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Team If</title>
-    <atom:link href="https://fengzhichu.com/fengzhichu-theme/fengzhichu-theme/feed.xml" rel="self" type="application/rss+xml"/>
-    <link>https://fengzhichu.com/fengzhichu-theme/fengzhichu-theme/</link>
+    <atom:link href="https://teamif.github.io//feed.xml" rel="self" type="application/rss+xml"/>
+    <link>https://teamif.github.io//</link>
     <description>Fan Translation and Localization Team</description>
-    <pubDate>Mon, 23 May 2016 03:51:14 -0500</pubDate>
+    <pubDate>Mon, 23 May 2016 15:52:36 -0500</pubDate>
     
       <item>
         <title>Example Post Formatting</title>
-        <link>https://fengzhichu.com/fengzhichu-theme/fengzhichu-theme/blog/example-post-formatting/</link>
-        <guid isPermaLink="true">https://fengzhichu.com/fengzhichu-theme/fengzhichu-theme/blog/example-post-formatting/</guid>
+        <link>https://teamif.github.io//blog/example-post-formatting/</link>
+        <guid isPermaLink="true">https://teamif.github.io//blog/example-post-formatting/</guid>
         <description>&lt;p class=&quot;intro&quot;&gt;&lt;span class=&quot;dropcap&quot;&gt;C&lt;/span&gt;urabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Vestibulum id ligula porta felis euismod semper. Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt;
 
 &lt;h1 id=&quot;heading-1&quot;&gt;Heading 1&lt;/h1&gt;
@@ -71,8 +71,8 @@
     
       <item>
         <title>Featured Image</title>
-        <link>https://fengzhichu.com/fengzhichu-theme/fengzhichu-theme/blog/featured-image/</link>
-        <guid isPermaLink="true">https://fengzhichu.com/fengzhichu-theme/fengzhichu-theme/blog/featured-image/</guid>
+        <link>https://teamif.github.io//blog/featured-image/</link>
+        <guid isPermaLink="true">https://teamif.github.io//blog/featured-image/</guid>
         <description>&lt;p class=&quot;intro&quot;&gt;&lt;span class=&quot;dropcap&quot;&gt;L&lt;/span&gt;orem ipsum thor smash liege-bastogne-liege landbouwkrediet ombregt krabbe, rouleur derby is for lovers bonk giro gilbert bidon. Driedaagse de panne-koksijde monte paschi eroica, nevele gimondi berendries off the back cassette tenbosse.&lt;/p&gt;
 
 &lt;p&gt;Bahamontes lanterne rouge normandie belgium. Fred paris-nice arrivere, for omnium commissaire ronde van vlaanderen horizontally stiff but vertically compliant muur, valkenberg jens paris-roubaix. Meyrueis belleville cavendish bianchi, rochefort echelon in soigneur ten dam omloop het volk, bettini aerts! Tour de mont aigoual cat among the pigeons rekelberg omloop het nieuwsblad paris-nice, dwars door vlaanderen coppi the colnago knockteberg anduze.&lt;/p&gt;
@@ -90,13 +90,13 @@
     
       <item>
         <title>Image in Post</title>
-        <link>https://fengzhichu.com/fengzhichu-theme/fengzhichu-theme/blog/image-in-post/</link>
-        <guid isPermaLink="true">https://fengzhichu.com/fengzhichu-theme/fengzhichu-theme/blog/image-in-post/</guid>
+        <link>https://teamif.github.io//blog/image-in-post/</link>
+        <guid isPermaLink="true">https://teamif.github.io//blog/image-in-post/</guid>
         <description>&lt;p class=&quot;intro&quot;&gt;&lt;span class=&quot;dropcap&quot;&gt;L&lt;/span&gt;orem ipsum thor smash liege-bastogne-liege landbouwkrediet ombregt krabbe, rouleur derby is for lovers bonk giro gilbert bidon. Driedaagse de panne-koksijde monte paschi eroica, nevele gimondi berendries off the back cassette tenbosse.&lt;/p&gt;
 
 &lt;p&gt;Bahamontes lanterne rouge normandie belgium. Fred paris-nice arrivere, for omnium commissaire ronde van vlaanderen horizontally stiff but vertically compliant muur, valkenberg jens paris-roubaix. Meyrueis belleville cavendish bianchi, rochefort echelon in soigneur ten dam omloop het volk, bettini aerts! Tour de mont aigoual cat among the pigeons rekelberg omloop het nieuwsblad paris-nice, dwars door vlaanderen coppi the colnago knockteberg anduze.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/fengzhichu-theme/img/touring.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/touring.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Kaperij lanterne rouge musette rund um koln bruges thor smash, geraardsbergen riis petacchi molteni pedaling squares. Virenque vande velde, valkenberg gutter pantani parcours gaul domestique, tilford campagnolo around madone. Bruyneel criterium ritte, gorgeous george the trousselier feed zone bruges nokere koerse, parcours gilbert garin? Anquetil valkenberg bettini cat among the pigeons.&lt;/p&gt;
 
@@ -111,8 +111,8 @@
     
       <item>
         <title>Test Post</title>
-        <link>https://fengzhichu.com/fengzhichu-theme/fengzhichu-theme/blog/test-post/</link>
-        <guid isPermaLink="true">https://fengzhichu.com/fengzhichu-theme/fengzhichu-theme/blog/test-post/</guid>
+        <link>https://teamif.github.io//blog/test-post/</link>
+        <guid isPermaLink="true">https://teamif.github.io//blog/test-post/</guid>
         <description>&lt;p class=&quot;intro&quot;&gt;&lt;span class=&quot;dropcap&quot;&gt;L&lt;/span&gt;orem ipsum thor smash liege-bastogne-liege landbouwkrediet ombregt krabbe, rouleur derby is for lovers bonk giro gilbert bidon. Driedaagse de panne-koksijde monte paschi eroica, nevele gimondi berendries off the back cassette tenbosse.&lt;/p&gt;
 
 &lt;p&gt;Bahamontes lanterne rouge normandie belgium. Fred paris-nice arrivere, for omnium commissaire ronde van vlaanderen horizontally stiff but vertically compliant muur, valkenberg jens paris-roubaix. Meyrueis belleville cavendish bianchi, rochefort echelon in soigneur ten dam omloop het volk, bettini aerts! Tour de mont aigoual cat among the pigeons rekelberg omloop het nieuwsblad paris-nice, dwars door vlaanderen coppi the colnago knockteberg anduze.&lt;/p&gt;
@@ -130,8 +130,8 @@
     
       <item>
         <title>Sample post</title>
-        <link>https://fengzhichu.com/fengzhichu-theme/fengzhichu-theme/blog/sample-post/</link>
-        <guid isPermaLink="true">https://fengzhichu.com/fengzhichu-theme/fengzhichu-theme/blog/sample-post/</guid>
+        <link>https://teamif.github.io//blog/sample-post/</link>
+        <guid isPermaLink="true">https://teamif.github.io//blog/sample-post/</guid>
         <description>&lt;p&gt;Consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur. Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut gravida lorem.&lt;/p&gt;
 
 &lt;ul&gt;
@@ -159,8 +159,8 @@
     
       <item>
         <title>Feature images</title>
-        <link>https://fengzhichu.com/fengzhichu-theme/fengzhichu-theme/blog/feature-images/</link>
-        <guid isPermaLink="true">https://fengzhichu.com/fengzhichu-theme/fengzhichu-theme/blog/feature-images/</guid>
+        <link>https://teamif.github.io//blog/feature-images/</link>
+        <guid isPermaLink="true">https://teamif.github.io//blog/feature-images/</guid>
         <description>&lt;p&gt;This is an example of a post which includes a feature image specified in the front matter of the post. The feature image spans the full-width of the page, and is shown with the title on permalink pages.&lt;/p&gt;
 </description>
         <pubDate>Sat, 29 Nov 2014 00:00:00 -0600</pubDate>
@@ -168,8 +168,8 @@
     
       <item>
         <title>Example Post Formatting 2013</title>
-        <link>https://fengzhichu.com/fengzhichu-theme/fengzhichu-theme/blog/example-post-formatting-2013/</link>
-        <guid isPermaLink="true">https://fengzhichu.com/fengzhichu-theme/fengzhichu-theme/blog/example-post-formatting-2013/</guid>
+        <link>https://teamif.github.io//blog/example-post-formatting-2013/</link>
+        <guid isPermaLink="true">https://teamif.github.io//blog/example-post-formatting-2013/</guid>
         <description>&lt;p class=&quot;intro&quot;&gt;&lt;span class=&quot;dropcap&quot;&gt;C&lt;/span&gt;urabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Vestibulum id ligula porta felis euismod semper. Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt;
 
 &lt;h1 id=&quot;heading-1&quot;&gt;Heading 1&lt;/h1&gt;

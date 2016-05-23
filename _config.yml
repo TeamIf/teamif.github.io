@@ -1,5 +1,5 @@
 # SITE CONFIGURATION
-baseurl: "/fengzhichu-theme" #"/team-if" # Set it to "" if use for personal site. The subpath of your site, e.g. /blog/
+baseurl: "" #"/team-if" # Set it to "" if use for personal site. The subpath of your site, e.g. /blog/
 url: "https://teamif.github.io/" # "https://teamif.github.io/team-if/" #  the base hostname & protocol for your site
 imageurl: "https://source.unsplash.com/user/teamif/2500x500" # https://source.unsplash.com/category/nature/2600x500" #"https://unsplash.it/2600/500?random"
 
