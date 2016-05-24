@@ -6,10 +6,8 @@ author: xz
 tags: [misc]
 ---
 
-<video width="320" height="240" controls style="float: left;">
-  <source src="https://www.youtube.com/watch?v=YXiQh76bNyE" type="video/mp4">
-Your browser does not support the video tag.
-</video>
+<iframe width="420" height="315" src="https://www.youtube.com/watch?v=YXiQh76bNyE" stlye="float: left;">
+</iframe>
 
 I'm the leader of Team If's third Division. Or, as it is more publically known, the Dai Gyakuten Saiban fan translation team.
 Our members are working hard and well, and I'm sure you are all as grateful of that as I am. However, we won't lie to you. Progress is rather slow.
