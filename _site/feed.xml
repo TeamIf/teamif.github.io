@@ -5,7 +5,7 @@
     <atom:link href="https://teamif.github.io//feed.xml" rel="self" type="application/rss+xml"/>
     <link>https://teamif.github.io//</link>
     <description>Fan Translation and Localization Team</description>
-    <pubDate>Mon, 23 May 2016 16:50:11 -0500</pubDate>
+    <pubDate>Mon, 23 May 2016 19:15:34 -0500</pubDate>
     
       <item>
         <title>New Website is Ready</title>
@@ -24,11 +24,424 @@
   &lt;li&gt;Pictures and videos&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;and more! Check back periodically for news and other updates. Feel free message email askteamif at gmail dot com with any questions or comments. Thanks for stopping by.&lt;/p&gt;
+&lt;p&gt;and more! Check back periodically for news and other updates. Feel free to email askteamif at gmail dot com with any questions or comments. Thanks for stopping by.&lt;/p&gt;
 
 &lt;p&gt;Picture credit to &lt;a href=&quot;http://aka-shiro.deviantart.com/&quot;&gt;Aka Shiro&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Mon, 23 May 2016 00:00:00 -0500</pubDate>
+      </item>
+    
+      <item>
+        <title>3DS Hacking Tutorial and FE Patching Guide</title>
+        <link>https://teamif.github.io//blog/installing-fe-patch/</link>
+        <guid isPermaLink="true">https://teamif.github.io//blog/installing-fe-patch/</guid>
+        <description>&lt;p&gt;This is Thedude28’s (kinda) extensive guide to patching Fire Emblem Fates/If v2. My extensive guide will show you how to patch the game. It is mainly for CFW users. Prepare yourself, because this guide assumes that you don’t have an idea on what you need to do.&lt;/p&gt;
+
+&lt;p&gt;You will need:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A 3DS that you’re willing to hack/get homebrew for&lt;/li&gt;
+  &lt;li&gt;Homebrew&lt;/li&gt;
+  &lt;li&gt;Shadowtrance’s Decrypt9 (for homebrew)&lt;/li&gt;
+  &lt;li&gt;Gateway Launcher (for homebrew)&lt;/li&gt;
+  &lt;li&gt;Python 2.7 (the latest version, not 2.7.0)&lt;/li&gt;
+  &lt;li&gt;(Recommended but not required) An SD card with a size of 8gb or larger&lt;/li&gt;
+  &lt;li&gt;Retail version of the game (doesn’t matter which version)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;part-1-checking-your-3ds-firmware-and-getting-homebrew&quot;&gt;Part 1: Checking your 3DS firmware and getting Homebrew&lt;/h2&gt;
+
+&lt;p&gt;This can be done by going to system settings and checking your firmware version. If you don’t want to read and use a flowchart instead, here’s a link to it: &lt;a href=&quot;http://imgh.us/3DSHex.svg&quot;&gt;http://imgh.us/3DSHex.svg&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;If your 3DS is on the latest firmware (10.7.0) as of the time of writing (3/27/2016)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You can temporarily patch the game via HANS, or you can downgrade to 9.2 and get CFW to apply
+a permanent patch. You can access all online functions within the game, and you can get DLC if your 3DS is the
+same region as the game’s region. Your options for homebrew are limited to:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Ninjhax&lt;/li&gt;
+  &lt;li&gt;OoTHax (with or without a powersave)&lt;/li&gt;
+  &lt;li&gt;SmashHax (only on N3DS)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;If your 3DS is on firmware less than 10.7.0&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You can temporarily patch the game via HANS, or you can downgrade to 9.2 and get CFW to apply
+a permanent patch. If you choose to patch the game via HANS, you may not be able to access the eShop to get DLC because
+you are not on the latest firmware.&lt;/p&gt;
+
+&lt;p&gt;If you are on firmware 10.6.0, your options for homebrew are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Ninjhax&lt;/li&gt;
+  &lt;li&gt;OoTHax (with or without a powersave)&lt;/li&gt;
+  &lt;li&gt;SmashHax (only on N3DS)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you are on firmware 10.5.0, you have more options:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Everything listed above&lt;/li&gt;
+  &lt;li&gt;MenuHax&lt;/li&gt;
+  &lt;li&gt;BrowserHax&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you are on firmware less than 10.5.0, you have even more options:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Everything listed above&lt;/li&gt;
+  &lt;li&gt;TubeHax&lt;/li&gt;
+  &lt;li&gt;IronHax&lt;/li&gt;
+  &lt;li&gt;And some other ones that I may have forgotten&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;about-homebrew&quot;&gt;About Homebrew&lt;/h3&gt;
+
+&lt;p&gt;Homebrew is 100% safe and will not hurt your 3DS in any way shape or form. You need to get Homebrew for your 3DS so that you can either downgrade or use HANS. Details on how to install homebrew from the entry points listed above can be found here: &lt;a href=&quot;http://smealum.github.io/3ds/&quot;&gt;http://smealum.github.io/3ds/&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;About TubeHax DNS: It is a Connection Setting (in Internet Settings) that automatically blocks updates and also prevents you from using the eShop too. It is completely optional if you wish to use it. I will not be listing the steps on how to install homebrew here, there are plenty of tutorials out there, so just google it.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;about-cfw&quot;&gt;About CFW&lt;/h3&gt;
+
+&lt;p&gt;If your firmware is &amp;gt;9.2, you’ll need to downgrade to firmware 9.2.0 in order to get CFW. If your firmware is between 9.2 and 9.0, you’re good to go. However, downgrading is not 100% safe, regardless of how much research you do.&lt;/p&gt;
+
+&lt;p&gt;Here are a few options for CFW and some notes about them:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;ReiNand and CakesFW&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Minimalist CFW, provides the bare minimum of what you need.&lt;/li&gt;
+      &lt;li&gt;ReiNand removes regionlock, while CakesFW does not.&lt;/li&gt;
+      &lt;li&gt;CakesFW has support for multiple Emunands&lt;/li&gt;
+      &lt;li&gt;CakesFW has support for updated Sysnand (not too sure about ReiNand though)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Luma3DS&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;The main CFW for A9LH (more info on A9LH below)&lt;/li&gt;
+      &lt;li&gt;Utilizes the CPU Clock for ALL 3DS games (N3DS ONLY)&lt;/li&gt;
+      &lt;li&gt;Support for region/language emulation for SPECIFIC games (not your console)&lt;/li&gt;
+      &lt;li&gt;Removes region lock&lt;/li&gt;
+      &lt;li&gt;Able to run many different payloads (depending on which button you press)&lt;/li&gt;
+      &lt;li&gt;Support for updated Sysnand (definition for “Updated Sysnand” can be found in A9LH section)
+        &lt;ul&gt;
+          &lt;li&gt;Updated Sysnand can also be updated to the latest version (from System Settings)&lt;/li&gt;
+          &lt;li&gt;Updated Sysnand will persist even through soft reboots (i.e. exitting System Settings)&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;RxTools&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;CFW with lots of tools that you’ll probably never utilize (but still nice to have).&lt;/li&gt;
+      &lt;li&gt;Supposedly the bootrates are lower than ReiNand/Cakes?&lt;/li&gt;
+      &lt;li&gt;Removes region lock&lt;/li&gt;
+      &lt;li&gt;Has been outdated for a while&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Gateway CFW&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;DOES NOT ALLOW YOU TO PLAY CUSTOM DLC (Unless you tinker with it some more)
+        &lt;ul&gt;
+          &lt;li&gt;Translated DLC counts as custom DLC as well.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Requires the Gateway RED card (you’ll have to buy that)&lt;/li&gt;
+      &lt;li&gt;Gateway Red is also a flashcard&lt;/li&gt;
+      &lt;li&gt;Removes region lock&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Arm9LoaderHax (or A9LH)&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Currently the “best” entrypoint out there&lt;/li&gt;
+      &lt;li&gt;Tedious to set up&lt;/li&gt;
+      &lt;li&gt;Definitely the riskiest entrypoint to set up (for noobs)&lt;/li&gt;
+      &lt;li&gt;Able to boot into CFW in mere seconds&lt;/li&gt;
+      &lt;li&gt;Able to have Updated Sysnand
+        &lt;ul&gt;
+          &lt;li&gt;Updated Sysnand is basically a permanently patched CFW Sysnand (can only be removed by flashing a clean copy of your NAND)&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;NOTE: ALL CFW CAN BE UPDATED TO THE LATEST VERSION (I don’t know about RxTools though)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I will not be listing the steps on how to install CFW here, there are plenty of tutorials out there, so just google it. Please note that some guides you may encounter are outdated, so be sure that the guide you’re following is up to date.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;decision-of-fate-picking-cfw-or-hans&quot;&gt;Decision of Fate (Picking CFW or HANS)&lt;/h3&gt;
+
+&lt;p&gt;In this section I will describe the Pros and Cons of HANS or CFW.&lt;/p&gt;
+
+&lt;h4 id=&quot;hans&quot;&gt;&lt;strong&gt;HANS&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;strong&gt;Pros&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;strong&gt;Cons&lt;/strong&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Easy to use&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Have to use HANS every time you want to use the patch&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Less work to set up&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;May not be able to recognize DLC&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Works just as well as if you played it on CFW&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;May not be able to use online functions (depending on your 3DS region and firmware)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Does not mess around with saves&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;cfw&quot;&gt;&lt;strong&gt;CFW&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;strong&gt;Pros&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;strong&gt;Cons&lt;/strong&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Once you have CFW set up, you have more freedom with what you can do to your 3DS&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;(Gateway users only) Cannot play modified DLC&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Works just as well as if you played it on HANS&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Downgrading is not 100% safe and MAY brick your 3DS (applies to those who need to downgrade)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;You can permanently patch the game&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Lots of work to do just to set it up&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;You will be able to access online functions/eShop (depending on your 3DS region)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;It is completely up to you to decide which one you want to use, I will be mainly covering the CFW option.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;part-2-preparing-the-patch&quot;&gt;Part 2: Preparing the patch&lt;/h2&gt;
+
+&lt;p&gt;This part assumes that you have Homebrew set up, and that you can consistently access it. The next step depends on if you picked CFW or HANS.&lt;/p&gt;
+
+&lt;p&gt;If you want to do the work for CFW, but still use HANS, follow the steps for CFW below.&lt;/p&gt;
+
+&lt;p&gt;If you plan on patching the game HANS, MyLegGuy wrote a guide (with pictures) for that here: &lt;a href=&quot;http://wololo.net/talk/viewtopic.php?f=80&amp;amp;t=45669&quot;&gt;http://wololo.net/talk/viewtopic.php?f=80&amp;amp;t=45669&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The steps listed below are for CFW Users.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;step-1-dumping-the-game-into-a-3ds-file&quot;&gt;Step 1: Dumping the game into a .3ds file&lt;/h3&gt;
+
+&lt;p&gt;You have a few options here, and it doesn’t matter which option you pick. I’m also sure that there are other ways of dumping it, but I will be focusing on using the Gateway Launcher since it is pretty easy to use.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;NOTE: YOU DO NOT NEED GATEWAY TO ACCESS THE GATEWAY LAUNCHER, YOU JUST NEED HOMEBREW. 
+YOU ALSO NEED TO BE ON FIRMWARE VERSION 9.2 OR LESS TO USE THE GATEWAY LAUNCHER.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;a.&lt;/strong&gt; First we will be downloading Gateway. All you need to do is go to this website: &lt;a href=&quot;http://www.gateway-3ds.com/downloads/&quot;&gt;http://www.gateway-3ds.com/downloads/&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;b.&lt;/strong&gt; And download the latest version of “Firmware GW”. Once you have that downloaded, extract the folder inside and place it anywhere.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;c.&lt;/strong&gt; Insert your 3DS SD Card and copy the following into the root of the SD card:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;a 3ds folder found in “GW_3dsx.zip” (when prompted to merge folders, select yes)&lt;/li&gt;
+  &lt;li&gt;Launcher.dat found in the folder “GW_Ultra_3.7.1_BETA”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;d.&lt;/strong&gt; Once you have done that, start up homebrew and select Gateway.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;e.&lt;/strong&gt; Now that you’re in the Gateway Menu, the option we will be selecting is the “Backup 3DS Game Cartridge”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;f.&lt;/strong&gt; Once you have selected “Backup 3DS Game Cartridge” insert your copy of Fire Emblem and press START.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;g.&lt;/strong&gt; Now you will have to wait a while for it to dump the game.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;h.&lt;/strong&gt; Once it has finished, you will need to power off your 3DS. (You can do this quickly in the Gateway Menu by holding L+R+B+Down)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;i.&lt;/strong&gt; Insert your SD card again and you will find a new file with the extension “.3DS”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;j.&lt;/strong&gt; Copy this file onto your computer (can be anywhere you want), and now you have a personal dump of the game!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;step-2-getting-xorpads&quot;&gt;Step 2: Getting Xorpads&lt;/h3&gt;
+
+&lt;p&gt;This step assumes that you have Python 2.7.X installed.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;a.&lt;/strong&gt; Download Shadowtrance’s decrypt9 and extract it to wherever you want.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;b.&lt;/strong&gt; Inside the decrypt9 folder there will be a folder named “scripts”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;c.&lt;/strong&gt; Drag and drop your .3DS file on top of the file “ncchinfo_gen.py”. This will generate a ncchinfo.bin file. We will need that later.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;NOTE&lt;/strong&gt;: If you cannot drag and drop your .3DS file on top of it, you will need to move your .3DS file to the scripts folder.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;d.&lt;/strong&gt; Then you CTRL+SHIFT+Right Click anywhere in the folder to open up a menu.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;e.&lt;/strong&gt; Then you click “Open Command Window Here” and a command prompt opens up.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;f.&lt;/strong&gt; Then type the command “python ncchinfo_gen.py &amp;lt;INSERT NAME OF .3DS FILE HERE&amp;gt;.3ds”. This will generate a ncchinfo.bin file. We will need that later.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;g.&lt;/strong&gt; Now that you have a ncchinfo.bin file, set up decrypt9 on your 3DS. Do this by copying the “Decrypt9UI” folder to the “3ds” folder for homebrew.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;h.&lt;/strong&gt; You will also need to copy D9UI to the root of your SD card, as well as create a new folder called “Decrypt9” on the root of your SD card.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;i.&lt;/strong&gt; In the folder Decrypt9, paste your ncchinfo.bin as well as slot0x25KeyX.bin in it. You can find slot0x25KeyX.bin on the internet, I will not be linking it because that is illegal.&lt;/p&gt;
+
+&lt;p&gt;At this point your SD card should have the following files/folders in it:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    -3ds  
+    -- Decrypt9UI (inside 3ds)  
+    -- GW (inside 3ds)  
+
+    -Decrypt9  
+    -- slot0x25KeyX.bin (inside Decrypt9)  
+    -- ncchinfo.bin (inside Decrypt9)  
+
+    Launcher.dat  
+    D9UI  
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;j.&lt;/strong&gt; If you have all of the above on your SD card, boot up decrypt9 from homebrew.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;k.&lt;/strong&gt; Once decrypt9 loads up, select NCCH PADGEN (it should be the first option highlighted anyways) Then you sit down, have a snack or something, and wait for it to decrypt and generate Xorpads.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;l.&lt;/strong&gt; Now reinsert your SD card and go inside the Decrypt9 folder and check the Xorpads you obtained.&lt;/p&gt;
+
+&lt;p&gt;You should get 7 xorpads in total, and 4 of them are needed:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    Xorpads Needed:  
+        Main.exefs_7x  
+        Main.exefs_norm  
+        Main.exheader  
+        Main.romfs  
+
+    Xorpads Not Needed:  
+        Manual.romfs  
+        Partition7.romfs  
+        UpdateData.romfs  
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;If you do not have all the Xorpads Needed, you probably did something wrong. If you do have all of them, congrats! You’re almost done!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;part-3-patching-the-game&quot;&gt;Part 3: Patching the Game&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;a.&lt;/strong&gt; If you haven’t downloaded the patch by now, you should download it now.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;b.&lt;/strong&gt; Create a new folder where you’ll be placing everything to patch the game, it’ll keep everything neat and organized.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;c.&lt;/strong&gt; So extract the patch into the workplace folder, then create a new folder called “Xorpads” and throw all your Xorpads you generated in there.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;extra-step-combining-all-patches-restoration-patch-users-only&quot;&gt;EXTRA Step: Combining all patches (Restoration Patch Users Only!)&lt;/h3&gt;
+
+&lt;p&gt;If you are using the restoration patch and want to combine patches, all you need to do is extract them all into one location and merge folders.&lt;/p&gt;
+
+&lt;p&gt;Then you’ll need to go inside the “patch” folder and create a new empty folder called “exe”&lt;/p&gt;
+
+&lt;p&gt;You don’t necessarily need to put anything in “exe”, so you can leave it alone.&lt;/p&gt;
+
+&lt;p&gt;So it should look something like this:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    -patch
+    --rom (inside patch, this is the contents of what you&#39;re patching)
+    --exe (inside patch, an empty folder)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;d.&lt;/strong&gt; Extract the patcher and throw that in workplace folder, as well as your dump of the game, and that should be everything you need.&lt;/p&gt;
+
+&lt;p&gt;Here’s what it should look like:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    -patch
+    --rom
+    --exe
+
+    -Xorpads
+    --All the xorpads needed
+
+    YourDumpedGame.3ds
+    Fire Emblem If+Fates Patcher.exe
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;If your workplace folder does not have the all of the things listed above, you did something wrong.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;e.&lt;/strong&gt; Now you’ll open up the patcher, and link your ROM, your Xorpad Folder, and your Patch folder.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;f.&lt;/strong&gt; Validate Xorpads, let it do its thing, then you’ll be presented with an option to build a .3ds or a .cia. These two file types can only be used with CFW:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A .cia file can be installed on any 3DS with a title manager (such as FBI/DevMenu/BBM, you should have one installed in EmuNAND/A9LH)&lt;/li&gt;
+  &lt;li&gt;A .3ds file can only be used on a Gateway Red card (and not a Sky3DS because Sky3DS cannot handle modified roms)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So select whatever format you want, and have fun!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;extra-step-making-this-hans-compatible&quot;&gt;EXTRA Step: Making this HANS compatible&lt;/h3&gt;
+
+&lt;p&gt;Just in case you’re too lazy and don’t want to scroll back up, I’ll link his guide again. &lt;a href=&quot;http://wololo.net/talk/viewtopic.php?f=80&amp;amp;t=45669&quot;&gt;http://wololo.net/talk/viewtopic.php?f=80&amp;amp;t=45669&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;When you patch the game and it spits out a patched version of it, it generates a tmp folder.&lt;/p&gt;
+
+&lt;p&gt;This folder has the “rom” folder, which we will need.&lt;/p&gt;
+
+&lt;p&gt;So first you will want to create a backup, in case something goes wrong.&lt;/p&gt;
+
+&lt;p&gt;Then you will want to take the “rom” folder of your patch, and merge it with the folder in “tmp”. Overwrite whatever’s in there.&lt;/p&gt;
+
+&lt;p&gt;Then you take the “rom” folder in “tmp” and use that to rebuild your RomFS&lt;/p&gt;
+
+&lt;p&gt;Refer to MyLegGuy’s tutorial to rebuild your romfs (step 10 onwards, you can find RomFS builder at the top of his post)&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 27 Mar 2016 00:00:00 -0500</pubDate>
       </item>
     
   </channel>
