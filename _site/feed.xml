@@ -5,7 +5,7 @@
     <atom:link href="https://teamif.github.io//feed.xml" rel="self" type="application/rss+xml"/>
     <link>https://teamif.github.io//</link>
     <description>Fan Translation and Localization Team</description>
-    <pubDate>Mon, 23 May 2016 19:15:34 -0500</pubDate>
+    <pubDate>Mon, 23 May 2016 19:28:03 -0500</pubDate>
     
       <item>
         <title>New Website is Ready</title>
@@ -29,6 +29,42 @@
 &lt;p&gt;Picture credit to &lt;a href=&quot;http://aka-shiro.deviantart.com/&quot;&gt;Aka Shiro&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Mon, 23 May 2016 00:00:00 -0500</pubDate>
+      </item>
+    
+      <item>
+        <title>Recruiting New Member for Div 3</title>
+        <link>https://teamif.github.io//blog/recruiting-new-members-div-3/</link>
+        <guid isPermaLink="true">https://teamif.github.io//blog/recruiting-new-members-div-3/</guid>
+        <description>&lt;video width=&quot;320&quot; height=&quot;240&quot; controls=&quot;&quot; style=&quot;float: left;&quot;&gt;
+  &lt;source src=&quot;https://www.youtube.com/watch?v=YXiQh76bNyE&quot; type=&quot;video/mp4&quot; /&gt;
+Your browser does not support the video tag.
+&lt;/video&gt;
+
+&lt;p&gt;I’m the leader of Team If’s third Division. Or, as it is more publically known, the Dai Gyakuten Saiban fan translation team.
+Our members are working hard and well, and I’m sure you are all as grateful of that as I am. However, we won’t lie to you. Progress is rather slow.&lt;/p&gt;
+
+&lt;p&gt;The reason for this is that we are fairly low in numbers. Therefore, as a group we have decided to begin open recruitment to our team. There are few requirements that will allow you to become eligible to become accepted into our team. First, English is required. In fact, if you are applying as an proofreader, you will be briefly tested on your knowledge of the English language. Japanese, however, is not required, unless you are applying to be a translator. We have a lot of the game translated already. If you do happen to speak Japanese as well as English, it would be extremely helpful for us to translate the rest of the game.&lt;/p&gt;
+
+&lt;p&gt;Also, a Gmail and Discord account are required for security and communication purposes. Next, please put forward effort and work hard. We know that life sometimes takes its toll, so if you are unable to handle a workload, we will understand.
+But, do refrain from being lazy or uncooperative. The final requirement is to have respect and responsibility among all members.&lt;/p&gt;
+
+&lt;p&gt;Here are the wanted roles, in order of importance:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Coder/Programmer&lt;/strong&gt; - We need someone to program new tools for us to use&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Editor&lt;/strong&gt; - Someone who edits the in-game text to English&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Proofreader&lt;/strong&gt; - Makes sure the text is readable&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Reverse Engineer&lt;/strong&gt; (knowledge of Assembly language required) - To figure technical things like pointers&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Translator&lt;/strong&gt; - Translates the rest of the Japanese text to English&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Graphics&lt;/strong&gt; - Translates Japanese graphics to English&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Tester&lt;/strong&gt; - Tests our edited files to see if they work&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To apply for recruitment, simply email dgsrecruit at gmail dot com with your Gmail account along with the subject “I want to join”. In the email body, include your Discord ID.&lt;/p&gt;
+
+&lt;p&gt;Thank you for your time.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 22 May 2016 00:00:00 -0500</pubDate>
       </item>
     
       <item>
