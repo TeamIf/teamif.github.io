@@ -5,7 +5,7 @@
     <atom:link href="https://teamif.github.io//feed.xml" rel="self" type="application/rss+xml"/>
     <link>https://teamif.github.io//</link>
     <description>Fan Translation and Localization Team</description>
-    <pubDate>Mon, 23 May 2016 19:35:43 -0500</pubDate>
+    <pubDate>Mon, 23 May 2016 20:45:54 -0500</pubDate>
     
       <item>
         <title>New Website is Ready</title>
@@ -35,8 +35,10 @@
         <title>Recruiting New Member for Div 3</title>
         <link>https://teamif.github.io//blog/recruiting-new-members-div-3/</link>
         <guid isPermaLink="true">https://teamif.github.io//blog/recruiting-new-members-div-3/</guid>
-        <description>&lt;iframe width=&quot;420&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/watch?v=YXiQh76bNyE&quot; stlye=&quot;float: left;&quot;&gt;
-&lt;/iframe&gt;
+        <description>&lt;div style=&quot;float: left; margin-right: 20px;&quot;&gt;
+    &lt;iframe width=&quot;420&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/embed/YXiQh76bNyE&quot;&gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
 
 &lt;p&gt;I’m the leader of Team If’s third Division. Or, as it is more publically known, the Dai Gyakuten Saiban fan translation team.
 Our members are working hard and well, and I’m sure you are all as grateful of that as I am. However, we won’t lie to you. Progress is rather slow.&lt;/p&gt;
