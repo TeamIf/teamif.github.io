@@ -1,5 +1,8 @@
 - slug: misc
   name: Misc
 
-- slug: tutorials
-  name: Tutorials
+- slug: tutorial
+  name: Tutorial
+
+- slug: update
+  name: Update

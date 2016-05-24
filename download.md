@@ -5,84 +5,54 @@ permalink: /Download/
 feature-img: "img/sample_feature_img_2.png"
 ---
 
-# Download
+# Downloads
 
-A jekyll theme for personal blog which based on [Type theme](https://github.com/rohanchandra/type-theme) and [ibireme's blog](http://blog.ibireme.com). Add several useful features. Fengzhichu Theme is powered by [Jekyll](http://jekyllrb.com/) and freely
-hosted in [Github pages](https://pages.github.com/).
+> **IMPORTANT**:
+> It is suggested that a fresh save be used for any content restoration patch, as the game is accessing content previously unavailable, players may experience problems with their new content going to and from patched/unpatched; Also, do not use any content restorations online, this could lead to either bans from Nintendo, or you could possibly crash other player's games.
 
-## How to use it
-* Star & Fork the [repo](https://github.com/fengzhichu/fengzhichu-theme).
-* Rename repo as 'yourusername.github.io'.
-* You can delete gh-pages branch if you want.
-* Clone your <b>master branch</b> to local directory.
-* Custom the '_config.yml' to your style.
-* Run jekyll serve -w.
+#### **Patcher**
+  * [Download](https://mega.nz/#!plwjCRzB!dF-4tA3cYspmAwGiWtvd7shY8Zg16AoKyVqnsNhSkQI)
 
-## Customization
+#### **Swimsuits**
+  * [Download](https://mega.nz/#!JlhUwJSS!SwsupEcpr-QtLiPc72h0tPGo8pTeDvlsMOXiJF27gDs)
 
-###_config.yml
-Some important configurations.
+#### **Undub**
+  * [Download](https://mega.nz/#!Nxxx2SDT!lvrZUqvG5ZSPTxxipz82FygidLIhJlxyM2wg933yjAs)
+  * [Mirror](https://drive.google.com/file/d/0B0rPMDhb3gbhNVdZczFMQjVoMUE/view)
 
-* imageurl: Randomly change image which display on top of site.
-  * By default image changes everytime when open your site or reflash it. If you want to change image daily or weekly, just append '/daily' or 'weekly' to imageurl.
-* title: Display on browse tab.
-* hometitle: The first menu name of navigation bar.
-* yoursitetitle: Your LOGO place here.
-* visiblewords: Number of words which you want to display in post of homepage.
-* sechby:
-  * category: "Posted in" #Words before Category name.
-  * tag: "with" #Words before Tag name.
-  * example: Posted in 'Category name' with 'Tag name'.
+#### **Name Patch (WIP)**
+  * [Download](https://mega.nz/#!RlgjGILR!7-AjP9d15gUIo0BqoH7M07r3-jcP1WpZHr-G1_Scn3E)
 
-###Tags
-Add new tag.
+#### **Fanslation (WIP)**
+  * [Download](https://mega.nz/#!ApZSFIQB!aCtRg5P3XCgT9RV2u_LNveZYfxjzY3lnFz4aCKOjZhQ)
+  * [Error Log](https://docs.google.com/document/d/1waP7scdZw9vQjRIWLJYUz86sn2pGd9Y6Cw9-wDsXDgo/edit)
 
-* Annotate your post entry front-matter block as usual:
+#### **Extra Characters**
 
-```
-        ---
-        layout: post
-        title: How To Use Tags And Categories On GitHub Pages Without Plugins
-        category: programming
-        tags: [github, github-pages, jekyll]
-        ---
-```
+Playable Chrom, Lissa, Frederick (Undub)  
 
-* Add an entry in your _data/tags.yml for every tag.
+  * [MEGA](https://mega.nz/#!chVFRR4Y!O2NOMHrB0CPRIcV-wEeaVNdnpQL38BTLcYaYSdf3Zkw)  
+  * [Dropbox](https://www.dropbox.com/s/quyrnx6pb83w3lj/UndubV3.7z?dl=1)  
 
-```
-        - slug: github-pages
-          name: GitHub Pages
-```
+Playable Chrom, Lissa, Frederick (English)  
 
-* Create a .md file which name is your Tag slug for every tag.
+  * [MEGA](https://mega.nz/#!chVFRR4Y!O2NOMHrB0CPRIcV-wEeaVNdnpQL38BTLcYaYSdf3Zkw)  
+  * [Dropbox](https://www.dropbox.com/s/jdpviqo7e6vanie/EnglishV3.7z?dl=1)  
 
-```
-        ---
-        layout: blog_by_tag
-        tag: github-pages
-        permalink: /blog/tag/github-pages/
-        ---
-  ```
+<br/>
+<hr>
+<br/>
 
-###Categories
-Similar as Tags.
+### FAQ
 
-## Thanks
-* Theme template: [type-theme](https://github.com/rohanchandra/type-theme)
-* Navigation bar: [ibireme's blog](http://blog.ibireme.com)
-* Features of Tag and Category: [HOW TO USE TAGS AND CATEGORIES ON GITHUB PAGES WITHOUT PLUGINS](http://www.minddust.com/post/tags-and-categories-on-github-pages/)
+Click [here](http://serenesforest.net/forums/index.php?showtopic=60728) for more question or troubleshooting.
 
-## Enjoy
-- If you like, please star it. Thank you!
-- Enjoy it!
+<br/>
+<hr>
+<br/>
 
-## Copyright & License
-Copyright (C) 2015 - Released under the MIT License.
+### Disclaimer
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Team If is a coalition of members from Serenes Forest, GBATemp, and other places that have an interest in Fire Emblem If. We do our work completely for free, and will never charge any money or accept any donations. We do not own any of the content we release; they are derivatives from Nintendo's original work. We will also never release anything that would be piracy.
+ 
+Our files are tested locally, but we do not guarantee the safety of your 3DS. We are also not responsible should something really bad happen.
