@@ -3,7 +3,7 @@ layout: post
 title:  "HANS Tutorial"
 date:   2016-4-7
 author: EldinTokuro
-tags: [tutorials]
+tags: [tutorial]
 ---
 
 ## Eldin's Eccentric Elongations 

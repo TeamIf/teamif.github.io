@@ -3,7 +3,7 @@ layout: post
 title:  "3DS Hacking Tutorial and FE Patching Guide"
 date:   2016-3-27
 author: Thedude28
-tags: [tutorials]
+tags: [tutorial]
 ---
 
 This is Thedude28's (kinda) extensive guide to patching Fire Emblem Fates/If v2. My extensive guide will show you how to patch the game. It is mainly for CFW users. Prepare yourself, because this guide assumes that you don't have an idea on what you need to do.

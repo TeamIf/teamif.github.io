@@ -5,7 +5,7 @@ permalink: /Download/
 feature-img: "img/sample_feature_img_2.png"
 ---
 
-# Downloads
+# FE:Fates Downloads
 
 > **IMPORTANT**:
 > It is suggested that a fresh save be used for any content restoration patch, as the game is accessing content previously unavailable, players may experience problems with their new content going to and from patched/unpatched; Also, do not use any content restorations online, this could lead to either bans from Nintendo, or you could possibly crash other player's games.
