@@ -49,6 +49,6 @@ You can contact Ahris any time if you want clarification!
 
 The banner images are pulled from an Imgur album and are randomly displayed. To add or change the images being displayed:
 
-1. Create an album on Imgur with the desired pictures. The pictures should be large enough to fit across a large monitor and should be about ~500 to 1000px tall.
+1. Create an album on Imgur with the desired pictures. The pictures should be large enough to fit across a large monitor and should be about ~500px to 1000px tall.
 2. Edit the first line of `/js/random_images.js` to have the new album ID. 
 And that's it!
