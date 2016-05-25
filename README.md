@@ -44,3 +44,11 @@ Team If is a collective of multiple fan translation groups. Current projects con
 4. The body of the post can be formatted in markdown and HTML. Have fun ~ 
 
 You can contact Ahris any time if you want clarification! 
+
+## How to change the banner images
+
+The banner images are pulled from an Imgur album and are randomly displayed. To add or change the images being displayed:
+
+1. Create an album on Imgur with the desired pictures. The pictures should be large enough to fit across a large monitor and should be around 500-900px tall.
+2. Edit the first line of `/js/random_images.js` to have the new album ID. 
+And that's it!
