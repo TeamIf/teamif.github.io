@@ -14,7 +14,7 @@ layout: default
     <p id="subtitletrans" class="subtitlecontainer">
     <a class="subtitle">{{ page.date | date: "%m.%-d.%Y" }}</a>
     {% if page.author %} | <a class="subtitle" href="{{ site.baseurl }}/About/">{{ page.author }}</a>{% endif %}
-	{% if post.category and post.tags %} | <a class="subtitle">{{ category_content }}</a> <a class="subtitle">{{ tags_content }}</a>{% endif %}
+	{% if post.category or post.tags %} | <a class="subtitle">{{ category_content }}</a> <a class="subtitle">{{ tags_content }}</a>{% endif %}
     </p>
   </header>
   <section class="post-content">
