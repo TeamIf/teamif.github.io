@@ -21,7 +21,7 @@ Team If is a collective of multiple fan translation groups. Current projects con
     ```
 
 3. If you use a new tag that hasn't been used before, you have to:  
-    3.a. Edit `/_data/tags.yml` with your new tag. New entries should look like the following. Note that the slug field is all lower case and can't include spaces. The name field can include upper case letter and spaces. Just be condistant here and in the following steps.
+    3.a. Edit `/_data/tags.yml` with your new tag. New entries should look like the following. Note that the slug field is all lower case and can't include spaces. The name field can include upper case letter and spaces. Just be consistant here and in the following steps.
 
     ```
         - slug: update
