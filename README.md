@@ -21,15 +21,15 @@ Team If is a collective of multiple fan translation groups. Current projects con
     ```
 
 3. If you use a new tag that hasn't been used before, you have to:  
-    3.a. Edit `/_data/tags.yml` with your new tag. New entries should look like:  
+    3.a. Edit `/_data/tags.yml` with your new tag. New entries should look like the following. Note that the slug field is all lower case and can't include spaces. The name field can include upper case letter and spaces. Just be condistant here and in the following steps.
 
     ```
         - slug: update
           name: Update
     ```
 
-    3.b. In /blog/tags, create a new markdown file for that tag: `your-tag-name.md`  
-    3.c. The content of `your-tag-name.md` should look like the following, but with the proper tag name:  
+    3.b. In /blog/tags, create a new markdown file for that tag: `your-tag-slug.md`  
+    3.c. The content of `your-tag-slug.md` should look like the following, but with the proper tag name:  
 
     ```
         ---
