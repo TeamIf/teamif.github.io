@@ -6,7 +6,7 @@ Team If is a collective of multiple fan translation groups. Current projects con
 
 ## Adding a Post
 
-1. Create the post's markdown file in the directory /_posts
+1. Create the post's markdown file in the directory `/_posts`
     - The file's name should be formatted like: `2016-05-23-name-of-post.md`
 2. The header data of the post will look like the following. Edit it to have all the correct data that you want. (i.e. change the date, Author, title, tags).
 
@@ -21,7 +21,7 @@ Team If is a collective of multiple fan translation groups. Current projects con
     ```
 
 3. If you use a new tag that hasn't been used before, you have to:  
-    3.a. Edit /_data/tags.yml with your new tag. New entries should look like:  
+    3.a. Edit `/_data/tags.yml` with your new tag. New entries should look like:  
 
     ```
         - slug: update
