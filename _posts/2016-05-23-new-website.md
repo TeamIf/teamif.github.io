@@ -17,6 +17,6 @@ We've put together a website where you can find up-to-date news about our projec
 * Announcements
 * Pictures and videos
 
-and more! Check back periodically for news and other updates. Feel free to email askteamif at gmail dot com with any questions or comments. Thanks for stopping by.
+and more! Check back periodically for news and other updates. Feel free to email <askteamif@gmail.com> with any questions or comments. Thanks for stopping by.
 
 Picture credit to <a href="http://aka-shiro.deviantart.com/">Aka Shiro</a>.

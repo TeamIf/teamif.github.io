@@ -24,8 +24,10 @@ function requestAlbum() {
 
 function processRequest(response_text) {
     if (response_text == "Not found") {
+
         console.log("Imgur album not found.");
     } else {
+
         var info = eval( "(" + response_text + ")" );
         console.log(response_text);
         var json = JSON.parse(response_text);
@@ -35,8 +37,6 @@ function processRequest(response_text) {
 
         document.getElementById("header_splash").style = 
           "background-image: url('" + image_url + "');";
-
-
     }
 }
 
