@@ -28,8 +28,8 @@ Team If is a collective of multiple fan translation groups. Current projects con
           name: Update
     ```
 
-    3.b. In /blog/tags, create a new markdown file for that tag: your-tag-name.md  
-    3.c. The content of your-tag-name.md should look like, but with the new tag name:  
+    3.b. In /blog/tags, create a new markdown file for that tag: `your-tag-name.md`  
+    3.c. The content of `your-tag-name.md` should look like, but with the new tag name:  
 
     ```
         ---
