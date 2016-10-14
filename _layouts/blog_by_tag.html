@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="home">
   <article class="feature-image" >
-  	<div style="background-image: url('{{ site.baseurl }}/{{ site.theme.place_holder_image }}')"/>
+  	<div style="background-image: url('{{ site.baseurl }}/{{ site.theme_settings.place_holder_image }}')"/>
   	<header id="header_splash" style="background-image: url('{{ site.imageurl }}')">
     <h1 class="call-out-title">{{ page.title }}</h1>
     </header>
@@ -28,13 +28,13 @@ layout: default
 		  </header>
 		  <div class="excerpt">
 		  {% assign num = post.content | number_of_words %}
-		  {% if  num  < site.theme.visiblewords %}
+		  {% if  num  < site.theme_settings.visiblewords %}
 		    {{ post.content }}
 		  {% else %}
-		    {{ post.content | truncatewords: site.theme.visiblewords }}
+		    {{ post.content | truncatewords: site.theme_settings.visiblewords }}
 		    <p>
 		    <a class="text" href="{{ post.url | prepend: site.baseurl }}">
-		      {{ site.theme.str_continue_reading }}
+		      {{ site.theme_settings.str_continue_reading }}
 		    </a>
 		    </p>
 		  {% endif %}

@@ -5,7 +5,7 @@
     <atom:link href="https://teamif.github.io//feed.xml" rel="self" type="application/rss+xml"/>
     <link>https://teamif.github.io//</link>
     <description>Fan Translation and Localization Team</description>
-    <pubDate>Fri, 14 Oct 2016 00:38:48 -0500</pubDate>
+    <pubDate>Fri, 14 Oct 2016 01:52:57 -0500</pubDate>
     
       <item>
         <title>Happy Anniversary, Ace Attorney!</title>
@@ -540,7 +540,7 @@ YOU ALSO NEED TO BE ON FIRMWARE VERSION 9.2 OR LESS TO USE THE GATEWAY LAUNCHER.
 &lt;p&gt;So it should look something like this:&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    -patch
-    --rom (inside patch, this is the contents of what you&#39;re patching)
+    --rom (inside patch, this is the contents of what you're patching)
     --exe (inside patch, an empty folder)
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
