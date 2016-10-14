@@ -6,11 +6,6 @@ author: xz, ShadySheikah
 tags: [dai]
 ---
 
-<div style="float: left; margin-right: 20px;">
-    <iframe width="420" height="315" src="https://www.youtube.com/watch?v=Q2iKItpVoyo">
-    </iframe>
-</div>
-
 Happy Anniversary to the Ace Attorney series!
 
 We congratulate Capcom for 15 years of amazing Ace Attorney games, and wish them the best of success for future installments. Throughout the years, this series has been loved by many loyal fans.
