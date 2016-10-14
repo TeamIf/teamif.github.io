@@ -3,7 +3,7 @@ layout: post
 title:  "Recruiting New Member for Div 3"
 date:   2016-5-22
 author: xz
-tags: [misc]
+tags: [dai]
 ---
 
 <div style="float: left; margin-right: 20px;">
