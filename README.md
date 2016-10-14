@@ -41,7 +41,7 @@ Team If is a collective of multiple fan translation groups. Current projects con
         ---
     ```
 
-4. The body of the post can be formatted in markdown and HTML. Have fun ~ 
+4. The body of the post can be formatted in markdown and HTML. Push your changes to both the `master` and `gh-pages` branches. Github generates the html from the gh-pages branch. Have fun ~ 
 
 You can contact Ahris any time if you want clarification! 
 
