@@ -2,7 +2,7 @@
 layout: post
 title:  "Happy Anniversary, Ace Attorney!"
 date:   2016-10-13
-author: xz, ShadySheikah
+author: ShadySheikah
 tags: [dai]
 ---
 
